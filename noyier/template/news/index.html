@@ -1,0 +1,10 @@
+<img src="{{ MEDIA_URL }}uploads/images/123584.jpg" />
+{% if news %}
+    <ul>
+    {% for n in news %}
+        <li><a href="/news/{{ n.id }}/">{{ n.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}

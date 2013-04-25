@@ -1,0 +1,88 @@
+Help on Manager in module django.db.models.manager object:
+
+class MMaannaaggeerr(__builtin__.object)
+ |  Methods defined here:
+ |  
+ |  ____iinniitt____(self)
+ |  
+ |  aaggggrreeggaattee(self, *args, **kwargs)
+ |  
+ |  aallll(self)
+ |  
+ |  aannnnoottaattee(self, *args, **kwargs)
+ |  
+ |  ccoommpplleexx__ffiilltteerr(self, *args, **kwargs)
+ |  
+ |  ccoonnttrriibbuuttee__ttoo__ccllaassss(self, model, name)
+ |  
+ |  ccoouunntt(self)
+ |  
+ |  ccrreeaattee(self, **kwargs)
+ |  
+ |  ddaatteess(self, *args, **kwargs)
+ |  
+ |  ddbb__mmaannaaggeerr(self, using)
+ |  
+ |  ddeeffeerr(self, *args, **kwargs)
+ |  
+ |  ddiissttiinncctt(self, *args, **kwargs)
+ |  
+ |  eexxcclluuddee(self, *args, **kwargs)
+ |  
+ |  eexxiissttss(self, *args, **kwargs)
+ |  
+ |  eexxttrraa(self, *args, **kwargs)
+ |  
+ |  ffiilltteerr(self, *args, **kwargs)
+ |  
+ |  ggeett(self, *args, **kwargs)
+ |  
+ |  ggeett__eemmppttyy__qquueerryy__sseett(self)
+ |  
+ |  ggeett__oorr__ccrreeaattee(self, **kwargs)
+ |  
+ |  ggeett__qquueerryy__sseett(self)
+ |      Returns a new QuerySet object.  Subclasses can override this method
+ |      to easily customize the behavior of the Manager.
+ |  
+ |  iinn__bbuullkk(self, *args, **kwargs)
+ |  
+ |  iitteerraattoorr(self, *args, **kwargs)
+ |  
+ |  llaatteesstt(self, *args, **kwargs)
+ |  
+ |  nnoonnee(self)
+ |  
+ |  oonnllyy(self, *args, **kwargs)
+ |  
+ |  oorrddeerr__bbyy(self, *args, **kwargs)
+ |  
+ |  rraaww(self, raw_query, params=None, *args, **kwargs)
+ |  
+ |  rreevveerrssee(self, *args, **kwargs)
+ |  
+ |  sseelleecctt__rreellaatteedd(self, *args, **kwargs)
+ |  
+ |  uuppddaattee(self, *args, **kwargs)
+ |  
+ |  uussiinngg(self, *args, **kwargs)
+ |  
+ |  vvaalluueess(self, *args, **kwargs)
+ |  
+ |  vvaalluueess__lliisstt(self, *args, **kwargs)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  ____ddiicctt____
+ |      dictionary for instance variables (if defined)
+ |  
+ |  ____wweeaakkrreeff____
+ |      list of weak references to the object (if defined)
+ |  
+ |  ddbb
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |  
+ |  ccrreeaattiioonn__ccoouunntteerr = 19

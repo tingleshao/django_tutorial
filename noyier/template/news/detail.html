@@ -1,0 +1,10 @@
+{% if new %}
+    <ul>
+	<p>
+   {{new.content}}
+	</p>
+	<img src="{{ MEDIA_URL }}uploads/images/{{ path }}" />
+    </ul>
+{% else %}
+    <p>No news are available.</p>
+{% endif %}
